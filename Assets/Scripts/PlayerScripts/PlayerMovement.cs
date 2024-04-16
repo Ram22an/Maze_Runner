@@ -7,16 +7,16 @@ public class PlayerMovement : MonoBehaviour
 {
     private float moveSpeed = 5f;
     private float turnSpeed = 100f;
-    private float rotY;
-    private float TurnSpeed=1f;
-    private float moveForward, RotateLeftorRight;
+    //private float rotY;
+    //private float TurnSpeed=1f;
+    //private float moveForward, RotateLeftorRight;
     private CharacterController characterController;
-    private Rigidbody myBody;
+    //private Rigidbody myBody;
     public float Speed = 10f;
     // Start is called before the first frame update
     void Awake()
     {
-        myBody=GetComponent<Rigidbody>();
+        //myBody=GetComponent<Rigidbody>();
         characterController = GetComponent<CharacterController>();
     }
 
