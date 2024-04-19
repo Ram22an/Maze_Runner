@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+    
     private float moveForward, rotateInput;
     private float moveSpeed = 25f;
     private float turnSpeed = 100f;
@@ -13,30 +14,31 @@ public class PlayerMovement : MonoBehaviour
     // Start is called before the first frame update
     void Awake()
     {
+        
         characterController = GetComponent<CharacterController>();
         animator = GameObject.FindGameObjectWithTag("Player").GetComponent<Animator>();
     }
     void Update()
     {
         PlayerMove();
-    }
-    void FixedUpdate()
-    {
         PlayerAnimation();
     }
 
     void PlayerAnimation()
     {
         
-        if (moveForward != 0)
+        if (moveForward > 0)
         {
             animator.ResetTrigger("Stop");
             animator.SetTrigger("Run");
+            //SoundScripts.Instance.PlayerISRuning();
         }
         else
         {
             animator.ResetTrigger("Run");
             animator.SetTrigger("Stop");
+            //SoundScripts.Instance.PlayerStopRunning();
+            
         }
         if (Input.GetKeyDown(KeyCode.Mouse0))
         {
@@ -46,10 +48,12 @@ public class PlayerMovement : MonoBehaviour
                 if (clip[0].clip.name == "run")
                 {
                     animator.SetTrigger("RunAttack");
+                    SoundScripts.Instance.PlayerAttacked();
                 }
                 else if (clip[0].clip.name == "idle")
                 {
                     animator.SetTrigger("Attack");
+                    SoundScripts.Instance.PlayerAttacked();
                 }
             }
         }
@@ -63,10 +67,12 @@ public class PlayerMovement : MonoBehaviour
                     if (clip[0].clip.name == "run")
                     {
                         animator.SetTrigger("Jump");
+                        SoundScripts.Instance.PlayerJumped();
                     }
                     else if (clip[0].clip.name == "idle")
                     {
                         animator.SetTrigger("Jump");
+                        SoundScripts.Instance.PlayerJumped();
                     }
                 }
             }
@@ -81,11 +87,26 @@ public class PlayerMovement : MonoBehaviour
         moveForward = Input.GetAxisRaw("Vertical");
         rotateInput = Input.GetAxisRaw("Horizontal");
         Vector3 moveDirection = transform.forward * moveForward;
-        characterController.Move(moveDirection * moveSpeed * Time.deltaTime);
-        transform.Rotate(Vector3.up, rotateInput * turnSpeed * Time.deltaTime);
+        if (moveForward >= 0)
+        {
+            characterController.Move(moveDirection * moveSpeed * Time.deltaTime);
+        }
+        else
+        {
+            characterController.Move(moveDirection * 0 * Time.deltaTime);
+        }
+        if (moveForward==0) {
+            transform.Rotate(Vector3.up, rotateInput * 0 * Time.deltaTime);
+        }
+        else
+        {
+            transform.Rotate(Vector3.up, rotateInput * turnSpeed * Time.deltaTime);
+        }
+        
     }
 
-
+    
+        
 
 
 
