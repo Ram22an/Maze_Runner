@@ -10,7 +10,7 @@ public class EnemyScript : MonoBehaviour
     private Animator Anim;
     private float Enemy_Speed = 15f;
     private float Enemy_Watch_Treshold = 70f;
-    private float Enemy_Attack_Treshold = 6f;
+    private float Enemy_Attack_Treshold = 12f;
     // Start is called before the first frame update
     void Awake()
     {
@@ -33,7 +33,6 @@ public class EnemyScript : MonoBehaviour
         float Magnitude = Distance.magnitude;
         //.Normalize() Makes this vector of magnitude of 1
         Distance.Normalize();
-
         Vector3 Velocity = Distance * Enemy_Speed;
         if (Magnitude>Enemy_Attack_Treshold && Magnitude < Enemy_Watch_Treshold)
         {
@@ -43,6 +42,16 @@ public class EnemyScript : MonoBehaviour
                 Anim.SetTrigger("Stop");
             }
             Anim.SetTrigger("Run");
+            transform.LookAt(new Vector3(Player.transform.position.x,
+                transform.position.y, Player.transform.position.z));
+        }
+        else if (Magnitude < Enemy_Attack_Treshold)
+        {
+            if (Anim.GetCurrentAnimatorStateInfo(0).IsName("Run"))
+            {
+                Anim.SetTrigger("Stop");
+            }
+            Anim.SetTrigger("Attack");
             transform.LookAt(new Vector3(Player.transform.position.x,
                 transform.position.y, Player.transform.position.z));
         }

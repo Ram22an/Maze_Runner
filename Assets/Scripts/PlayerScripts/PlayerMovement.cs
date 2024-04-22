@@ -8,7 +8,7 @@ public class PlayerMovement : MonoBehaviour
     
     private float moveForward, rotateInput;
     private float moveSpeed = 25f;
-    private float turnSpeed = 100f;
+    private float turnSpeed = 120f;
     private CharacterController characterController;    
     private Animator animator;
     // Start is called before the first frame update
@@ -95,14 +95,15 @@ public class PlayerMovement : MonoBehaviour
         {
             characterController.Move(moveDirection * 0 * Time.deltaTime);
         }
-        if (moveForward==0) {
-            transform.Rotate(Vector3.up, rotateInput * 0 * Time.deltaTime);
-        }
-        else
-        {
-            transform.Rotate(Vector3.up, rotateInput * turnSpeed * Time.deltaTime);
-        }
+        //if (moveForward==0) {
+          //  transform.Rotate(Vector3.up, rotateInput * 0 * Time.deltaTime);
+        //}
+        //else
+        //{
+        transform.Rotate(Vector3.up, rotateInput * turnSpeed * Time.deltaTime);
+        //}
         
+
     }
 
     
