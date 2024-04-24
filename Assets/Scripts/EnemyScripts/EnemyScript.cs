@@ -55,6 +55,11 @@ public class EnemyScript : MonoBehaviour
             transform.LookAt(new Vector3(Player.transform.position.x,
                 transform.position.y, Player.transform.position.z));
         }
+        else
+        {
+            MyBody.velocity = Vector3.zero;
+            Anim.SetTrigger("Stop");
+        }
     }
 
 
