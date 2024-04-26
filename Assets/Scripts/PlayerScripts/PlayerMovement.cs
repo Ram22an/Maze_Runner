@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    
+    bool isMoving = false;
     private float moveForward, rotateInput;
     private float moveSpeed = 25f;
     private float turnSpeed = 120f;
@@ -31,13 +31,11 @@ public class PlayerMovement : MonoBehaviour
         {
             animator.ResetTrigger("Stop");
             animator.SetTrigger("Run");
-            //SoundScripts.Instance.PlayerISRuning();
         }
         else
         {
             animator.ResetTrigger("Run");
             animator.SetTrigger("Stop");
-            //SoundScripts.Instance.PlayerStopRunning();
             
         }
         if (Input.GetKeyDown(KeyCode.Mouse0))
@@ -87,16 +85,26 @@ public class PlayerMovement : MonoBehaviour
         moveForward = Input.GetAxisRaw("Vertical");
         rotateInput = Input.GetAxisRaw("Horizontal");
         Vector3 moveDirection = transform.forward * moveForward;
-        if (moveForward >= 0)
+        if (moveForward > 0)
         {
             characterController.Move(moveDirection * moveSpeed * Time.deltaTime);
+            if (!isMoving)
+            {
+                SoundScripts.Instance.PlayerISRuning();
+                isMoving = true;
+            }
         }
-        else
+        if (moveForward<=0)
         {
             characterController.Move(moveDirection * 0 * Time.deltaTime);
+            if (isMoving)
+            {
+                SoundScripts.Instance.PlayerStopRunning();
+                isMoving = false;
+            }
         }
         //if (moveForward==0) {
-          //  transform.Rotate(Vector3.up, rotateInput * 0 * Time.deltaTime);
+        //  transform.Rotate(Vector3.up, rotateInput * 0 * Time.deltaTime);
         //}
         //else
         //{
@@ -113,6 +121,10 @@ public class PlayerMovement : MonoBehaviour
 
 
 }//class
+
+
+
+
  //public float Speed = 50f;
  //private float rotY;
  //private float TurnSpeed=1f;

@@ -5,15 +5,17 @@ using UnityEngine;
 
 public class EnemyScript : MonoBehaviour
 {
+    private GameObject AttackingPoint;
     private GameObject Player;
     private Rigidbody MyBody;
     private Animator Anim;
-    private float Enemy_Speed = 15f;
+    private float Enemy_Speed = 10f;
     private float Enemy_Watch_Treshold = 70f;
-    private float Enemy_Attack_Treshold = 12f;
+    private float Enemy_Attack_Treshold = 5f;
     // Start is called before the first frame update
     void Awake()
     {
+        AttackingPoint = GameObject.FindGameObjectWithTag("AttackPointEnemy");
         Player = GameObject.FindGameObjectWithTag("Player");
         MyBody=GetComponent<Rigidbody>();
         Anim=GetComponent<Animator>();  
@@ -62,7 +64,14 @@ public class EnemyScript : MonoBehaviour
         }
     }
 
-
+    void DamagePointActive()
+    {
+        AttackingPoint.SetActive(true);
+    }
+    void DamagePointDeActivate()
+    {
+        AttackingPoint.SetActive(false);
+    }
 
 
 

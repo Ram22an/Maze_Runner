@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Ground
   - AttackPoint
+  - AttackPointEnemy
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -13,8 +15,8 @@ TagManager:
   - Ground
   - Water
   - UI
-  - 
-  - 
+  - Player
+  - Enemy
   - 
   - 
   - 
