@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerAttackingScript : MonoBehaviour
 {
     public LayerMask EnemyLayer;
-    public float DamageAmount = 20f;
+    public int DamageAmount = 20;
     private void Update()
     {
         Collider[] hits = Physics.OverlapSphere(transform.position, 3f, EnemyLayer);

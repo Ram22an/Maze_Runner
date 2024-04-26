@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4816619932034394601}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: CATRigHub003Bone005
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30,7 +30,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1459148624486379328}
-  m_LocalEulerAnglesHint: {x: 27.49709, y: 9.286421, z: -73.59986}
+  m_LocalEulerAnglesHint: {x: 27.497091, y: 9.286419, z: -73.59986}
 --- !u!1 &182727701546409891
 GameObject:
   m_ObjectHideFlags: 0
@@ -42,7 +42,7 @@ GameObject:
   - component: {fileID: 6541092408955731013}
   - component: {fileID: 1440207612935355746}
   - component: {fileID: 8973772404212492812}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Character Forest Guard
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -67,6 +67,7 @@ Transform:
   - {fileID: 7230941022996112372}
   - {fileID: 538928455834193803}
   - {fileID: 2285310377293294916}
+  - {fileID: 3911666803811787217}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &1440207612935355746
@@ -111,7 +112,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2494750828539854071}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: CATRigLLegPlatform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -132,7 +133,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6541092408955731013}
-  m_LocalEulerAnglesHint: {x: 0, y: -105.99999, z: -90}
+  m_LocalEulerAnglesHint: {x: 73.39977, y: -55.14938, z: -73.75538}
 --- !u!1 &404240763316142272
 GameObject:
   m_ObjectHideFlags: 0
@@ -142,7 +143,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3635229530147475277}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: CATRigRLeg2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -164,7 +165,7 @@ Transform:
   m_Children:
   - {fileID: 83118845545509480}
   m_Father: {fileID: 5601451112293413438}
-  m_LocalEulerAnglesHint: {x: 4.9056296, y: -10.296229, z: 51.895138}
+  m_LocalEulerAnglesHint: {x: 1.9229585, y: -6.9902835, z: 32.343563}
 --- !u!1 &496102848099510038
 GameObject:
   m_ObjectHideFlags: 0
@@ -174,7 +175,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8880290485802793011}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: CATRigLArmDigit23
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -195,7 +196,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3978825727729361483}
-  m_LocalEulerAnglesHint: {x: -0.00002730065, y: -0.000056118442, z: 2.7372985}
+  m_LocalEulerAnglesHint: {x: -0.000040017705, y: -0.000034743207, z: -18.399965}
 --- !u!1 &498816962509339121
 GameObject:
   m_ObjectHideFlags: 0
@@ -205,7 +206,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2521319789712691839}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: CATRigHub002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -229,7 +230,7 @@ Transform:
   - {fileID: 8170251157267023114}
   - {fileID: 3709368244146374192}
   m_Father: {fileID: 8769962955504848336}
-  m_LocalEulerAnglesHint: {x: -6.895648, y: 7.250447, z: -22.99705}
+  m_LocalEulerAnglesHint: {x: 3.8804476, y: 3.4799483, z: -15.342753}
 --- !u!1 &531059314301601387
 GameObject:
   m_ObjectHideFlags: 0
@@ -239,7 +240,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5697563836436923473}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: CATRigRArmDigit31 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -261,7 +262,7 @@ Transform:
   m_Children:
   - {fileID: 8013733064038052792}
   m_Father: {fileID: 97841749450546731}
-  m_LocalEulerAnglesHint: {x: -1.0635177, y: 3.2733793, z: 67.00948}
+  m_LocalEulerAnglesHint: {x: -1.0635145, y: 3.2733812, z: 67.00948}
 --- !u!1 &766889304718779247
 GameObject:
   m_ObjectHideFlags: 0
@@ -271,7 +272,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 460503236649209443}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: CATRigHub003Bone001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -292,7 +293,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1459148624486379328}
-  m_LocalEulerAnglesHint: {x: -16.371532, y: 93.687485, z: 20.158243}
+  m_LocalEulerAnglesHint: {x: -17.505884, y: 91.607315, z: -6.46392}
 --- !u!1 &811590391727846402
 GameObject:
   m_ObjectHideFlags: 0
@@ -302,7 +303,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3554213003102497926}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: CATRigRArmDigit22
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -324,7 +325,7 @@ Transform:
   m_Children:
   - {fileID: 3801830839702372483}
   m_Father: {fileID: 6068004995126964054}
-  m_LocalEulerAnglesHint: {x: 0.000030030209, y: 0.000017418732, z: 87.032104}
+  m_LocalEulerAnglesHint: {x: 0.000029695759, y: 0.000018900964, z: 87.032104}
 --- !u!1 &820624912411707223
 GameObject:
   m_ObjectHideFlags: 0
@@ -334,7 +335,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2196354902626800880}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: CATRigLArm22
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -356,7 +357,7 @@ Transform:
   m_Children:
   - {fileID: 7328935324362171914}
   m_Father: {fileID: 8294639494288391684}
-  m_LocalEulerAnglesHint: {x: 9.701998, y: 0.000005643199, z: 0.0000000098643085}
+  m_LocalEulerAnglesHint: {x: -39.33154, y: -0.00000042688686, z: 0}
 --- !u!1 &909809990910416516
 GameObject:
   m_ObjectHideFlags: 0
@@ -368,7 +369,7 @@ GameObject:
   - component: {fileID: 9160009915106659899}
   - component: {fileID: 7388536558832162233}
   - component: {fileID: 3429693583946737466}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Low_eyes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -449,7 +450,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5651756676877498805}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: CATRigHub003Bone007
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -480,7 +481,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7230941022996112372}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: CATRigRLegPlatform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -501,7 +502,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6541092408955731013}
-  m_LocalEulerAnglesHint: {x: 0, y: -61.99998, z: -90}
+  m_LocalEulerAnglesHint: {x: -4.930916, y: -21.046003, z: -43.471382}
 --- !u!1 &1438844160187251165
 GameObject:
   m_ObjectHideFlags: 0
@@ -511,7 +512,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7635250736916919724}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: CATRigLArmDigit13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -532,7 +533,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7831012881158021197}
-  m_LocalEulerAnglesHint: {x: -0.0000050917124, y: -0.0000042885863, z: 1.0121459}
+  m_LocalEulerAnglesHint: {x: -0.000008585836, y: -0.000007231576, z: 1.0121459}
 --- !u!1 &1480534934673739227
 GameObject:
   m_ObjectHideFlags: 0
@@ -542,7 +543,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8157688912404455588}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: CATRigRLegDigit11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -563,7 +564,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 83118845545509480}
-  m_LocalEulerAnglesHint: {x: -1.645788, y: -1.5860603, z: -19.692307}
+  m_LocalEulerAnglesHint: {x: -1.6449074, y: -1.6075829, z: -19.663504}
 --- !u!1 &1654381075068249127
 GameObject:
   m_ObjectHideFlags: 0
@@ -573,7 +574,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5946680401024791562}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: CATRigRArmDigit33 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -604,7 +605,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5966259425692563034}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: CATRigLArmCollarbone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -626,7 +627,38 @@ Transform:
   m_Children:
   - {fileID: 6428828941069172038}
   m_Father: {fileID: 2521319789712691839}
-  m_LocalEulerAnglesHint: {x: -1.0304, y: 90.589455, z: 42.605373}
+  m_LocalEulerAnglesHint: {x: -1.0304031, y: 90.589455, z: 42.605373}
+--- !u!1 &1831203923595741740
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3911666803811787217}
+  m_Layer: 0
+  m_Name: CameraFocus
+  m_TagString: Untagged
+  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3911666803811787217
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1831203923595741740}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 44.666664, z: 0}
+  m_LocalScale: {x: 11.111111, y: 11.111111, z: 11.111111}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6541092408955731013}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2334044937508061035
 GameObject:
   m_ObjectHideFlags: 0
@@ -636,7 +668,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3801830839702372483}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: CATRigRArmDigit23
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -657,7 +689,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3554213003102497926}
-  m_LocalEulerAnglesHint: {x: -0.000043449374, y: 0.000041523894, z: 74.07042}
+  m_LocalEulerAnglesHint: {x: -0.000041852505, y: 0.000038605685, z: 74.07042}
 --- !u!1 &2386914479402588946
 GameObject:
   m_ObjectHideFlags: 0
@@ -667,7 +699,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8643872157137281258}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: CATRigRArm21
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -689,7 +721,7 @@ Transform:
   m_Children:
   - {fileID: 6051235726673362352}
   m_Father: {fileID: 4403254992162610153}
-  m_LocalEulerAnglesHint: {x: 2.1291456, y: 4.980433, z: -38.527138}
+  m_LocalEulerAnglesHint: {x: 2.1257594, y: 4.9768276, z: -20.804804}
 --- !u!1 &2539790700536297169
 GameObject:
   m_ObjectHideFlags: 0
@@ -699,7 +731,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6051235726673362352}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: CATRigRArm22
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -721,7 +753,7 @@ Transform:
   m_Children:
   - {fileID: 97841749450546731}
   m_Father: {fileID: 8643872157137281258}
-  m_LocalEulerAnglesHint: {x: 16.63755, y: 0.0000022178078, z: 0.000001782157}
+  m_LocalEulerAnglesHint: {x: 44.719048, y: -0.00000016008255, z: 0}
 --- !u!1 &2590619879955216611
 GameObject:
   m_ObjectHideFlags: 0
@@ -731,7 +763,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6068004995126964054}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: CATRigRArmDigit21
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -753,7 +785,7 @@ Transform:
   m_Children:
   - {fileID: 3554213003102497926}
   m_Father: {fileID: 97841749450546731}
-  m_LocalEulerAnglesHint: {x: -0.000028402084, y: -2.3485897, z: 22.081127}
+  m_LocalEulerAnglesHint: {x: -0.000026950354, y: -2.3485913, z: 22.081123}
 --- !u!1 &2723463110884634608
 GameObject:
   m_ObjectHideFlags: 0
@@ -763,7 +795,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6123449526379349568}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: CATRigLArmDigit21
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -785,7 +817,7 @@ Transform:
   m_Children:
   - {fileID: 3978825727729361483}
   m_Father: {fileID: 7328935324362171914}
-  m_LocalEulerAnglesHint: {x: 0.00001006478, y: 2.3485708, z: 0.7479146}
+  m_LocalEulerAnglesHint: {x: -0.0000015378314, y: 2.3485737, z: 0.747915}
 --- !u!1 &2826343538698685094
 GameObject:
   m_ObjectHideFlags: 0
@@ -796,7 +828,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2285310377293294916}
   - component: {fileID: 8521070836102973075}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: low_body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -935,7 +967,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3709368244146374192}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: CATRigSpine
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -957,7 +989,7 @@ Transform:
   m_Children:
   - {fileID: 1459148624486379328}
   m_Father: {fileID: 2521319789712691839}
-  m_LocalEulerAnglesHint: {x: -1.9546798, y: 1.5617927, z: -22.176764}
+  m_LocalEulerAnglesHint: {x: 10.013065, y: 0.37018427, z: -21.882673}
 --- !u!1 &3133389836810446631
 GameObject:
   m_ObjectHideFlags: 0
@@ -967,7 +999,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 689544803945714415}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: CATRigLArmDigit33
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -998,7 +1030,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 83118845545509480}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: CATRigRLegAnkle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1020,7 +1052,7 @@ Transform:
   m_Children:
   - {fileID: 8157688912404455588}
   m_Father: {fileID: 3635229530147475277}
-  m_LocalEulerAnglesHint: {x: 8.119758, y: -9.8922825, z: -104.86724}
+  m_LocalEulerAnglesHint: {x: 17.93529, y: 6.4528537, z: -50.548565}
 --- !u!1 &3633624814511936233
 GameObject:
   m_ObjectHideFlags: 0
@@ -1030,7 +1062,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6062415692103914935}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: CATRigRArmDigit32 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1062,7 +1094,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6428828941069172038}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: CATRigLArm1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1084,7 +1116,7 @@ Transform:
   m_Children:
   - {fileID: 8294639494288391684}
   m_Father: {fileID: 5966259425692563034}
-  m_LocalEulerAnglesHint: {x: 15.251325, y: 46.458828, z: -11.507099}
+  m_LocalEulerAnglesHint: {x: 14.53593, y: 32.48348, z: -7.2010493}
 --- !u!1 &3753311665385625190
 GameObject:
   m_ObjectHideFlags: 0
@@ -1094,7 +1126,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7831012881158021197}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: CATRigLArmDigit12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1116,7 +1148,7 @@ Transform:
   m_Children:
   - {fileID: 7635250736916919724}
   m_Father: {fileID: 923336987183556287}
-  m_LocalEulerAnglesHint: {x: 0.000017078923, y: 0.0000018724616, z: 29.014507}
+  m_LocalEulerAnglesHint: {x: 0.000018327966, y: 0.0000031574148, z: 29.014503}
 --- !u!1 &3956785563160821021
 GameObject:
   m_ObjectHideFlags: 0
@@ -1126,7 +1158,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7655573056314064310}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: CATRigLArmDigit31
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1148,7 +1180,7 @@ Transform:
   m_Children:
   - {fileID: 7078389867641054440}
   m_Father: {fileID: 7328935324362171914}
-  m_LocalEulerAnglesHint: {x: -0.000017469538, y: -0.000027221453, z: 28.677397}
+  m_LocalEulerAnglesHint: {x: -0.000026719543, y: -0.000022951093, z: 14.406622}
 --- !u!1 &3994388709418401007
 GameObject:
   m_ObjectHideFlags: 0
@@ -1158,7 +1190,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4604964563065973505}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: CATRigLLeg2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1180,7 +1212,7 @@ Transform:
   m_Children:
   - {fileID: 543596441124047558}
   m_Father: {fileID: 306687827045092001}
-  m_LocalEulerAnglesHint: {x: -5.180205, y: 10.521185, z: 53.25527}
+  m_LocalEulerAnglesHint: {x: -7.9843297, y: 12.130117, z: 67.2658}
 --- !u!1 &4068361303617500036
 GameObject:
   m_ObjectHideFlags: 0
@@ -1190,7 +1222,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1269624087439075141}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: CATRigLArmDigit31 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1212,7 +1244,7 @@ Transform:
   m_Children:
   - {fileID: 9069744489029225406}
   m_Father: {fileID: 7328935324362171914}
-  m_LocalEulerAnglesHint: {x: 1.0635525, y: -3.2733388, z: 30.343193}
+  m_LocalEulerAnglesHint: {x: 1.0615201, y: -3.265049, z: 16.072536}
 --- !u!1 &4169828813962138424
 GameObject:
   m_ObjectHideFlags: 0
@@ -1222,7 +1254,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8013733064038052792}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: CATRigRArmDigit32
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1254,7 +1286,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7328935324362171914}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: CATRigLArmPalm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1279,7 +1311,7 @@ Transform:
   - {fileID: 7655573056314064310}
   - {fileID: 1269624087439075141}
   m_Father: {fileID: 2196354902626800880}
-  m_LocalEulerAnglesHint: {x: -77.82136, y: -28.94072, z: 47.616364}
+  m_LocalEulerAnglesHint: {x: -49.45385, y: -171.19823, z: 155.78395}
 --- !u!1 &4381139915546311477
 GameObject:
   m_ObjectHideFlags: 0
@@ -1289,7 +1321,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5601451112293413438}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: CATRigRLeg1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1311,7 +1343,7 @@ Transform:
   m_Children:
   - {fileID: 3635229530147475277}
   m_Father: {fileID: 7392699807481291726}
-  m_LocalEulerAnglesHint: {x: 13.313866, y: -165.72498, z: -14.703066}
+  m_LocalEulerAnglesHint: {x: 16.860235, y: -146.74695, z: -28.18257}
 --- !u!1 &4733165392990976293
 GameObject:
   m_ObjectHideFlags: 0
@@ -1321,7 +1353,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7078389867641054440}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: CATRigLArmDigit32
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1343,7 +1375,7 @@ Transform:
   m_Children:
   - {fileID: 2871281127596550542}
   m_Father: {fileID: 7655573056314064310}
-  m_LocalEulerAnglesHint: {x: -0.000034686847, y: 0.00002010019, z: 17.480131}
+  m_LocalEulerAnglesHint: {x: -0.00003075929, y: 0.000022432501, z: 3.2094734}
 --- !u!1 &5505452267689026788
 GameObject:
   m_ObjectHideFlags: 0
@@ -1353,7 +1385,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4284270626114829055}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: CATRigHub003Bone004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1374,7 +1406,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1459148624486379328}
-  m_LocalEulerAnglesHint: {x: 27.49709, y: 9.286421, z: -73.59986}
+  m_LocalEulerAnglesHint: {x: 27.497091, y: 9.286419, z: -73.59986}
 --- !u!1 &5512778815062161478
 GameObject:
   m_ObjectHideFlags: 0
@@ -1384,7 +1416,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8769962955504848336}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: CATRigSpine2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1406,7 +1438,7 @@ Transform:
   m_Children:
   - {fileID: 2521319789712691839}
   m_Father: {fileID: 3251657986963584822}
-  m_LocalEulerAnglesHint: {x: -28.624609, y: -4.236023, z: 2.2599108}
+  m_LocalEulerAnglesHint: {x: -10.292845, y: 15.773732, z: 36.51302}
 --- !u!1 &5519755966381163685
 GameObject:
   m_ObjectHideFlags: 0
@@ -1416,7 +1448,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8170251157267023114}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: CATRigRArmCollarbone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1438,7 +1470,7 @@ Transform:
   m_Children:
   - {fileID: 4403254992162610153}
   m_Father: {fileID: 2521319789712691839}
-  m_LocalEulerAnglesHint: {x: 1.0303961, y: -90.58946, z: 42.605373}
+  m_LocalEulerAnglesHint: {x: 1.0303966, y: -90.58946, z: 42.605373}
 --- !u!1 &5773793892300236740
 GameObject:
   m_ObjectHideFlags: 0
@@ -1448,7 +1480,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7090926483386389993}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: CATRigHub003Bone002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1469,7 +1501,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1459148624486379328}
-  m_LocalEulerAnglesHint: {x: 16.371506, y: -93.68748, z: 20.15824}
+  m_LocalEulerAnglesHint: {x: 17.05603, y: -94.94245, z: 40.51746}
 --- !u!1 &6036714839592158734
 GameObject:
   m_ObjectHideFlags: 0
@@ -1479,7 +1511,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 538928455834193803}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Character001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1510,7 +1542,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6682141829158187080}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: CATRigHub003Bone006
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1541,7 +1573,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2871281127596550542}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: CATRigLArmDigit33 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1572,7 +1604,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4403254992162610153}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: CATRigRArm1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1594,7 +1626,7 @@ Transform:
   m_Children:
   - {fileID: 8643872157137281258}
   m_Father: {fileID: 8170251157267023114}
-  m_LocalEulerAnglesHint: {x: -24.99985, y: 0.5379539, z: -27.651224}
+  m_LocalEulerAnglesHint: {x: -48.475464, y: -58.33892, z: 2.9378772}
 --- !u!1 &7145281860667983684
 GameObject:
   m_ObjectHideFlags: 0
@@ -1604,7 +1636,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3978825727729361483}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: CATRigLArmDigit22
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1626,7 +1658,7 @@ Transform:
   m_Children:
   - {fileID: 8880290485802793011}
   m_Father: {fileID: 6123449526379349568}
-  m_LocalEulerAnglesHint: {x: -0.00002649009, y: 0.000031053398, z: 13.698784}
+  m_LocalEulerAnglesHint: {x: -0.00001914776, y: 0.000029763185, z: -7.438686}
 --- !u!1 &7333415151781770746
 GameObject:
   m_ObjectHideFlags: 0
@@ -1638,9 +1670,9 @@ GameObject:
   - component: {fileID: 2043346651750950673}
   - component: {fileID: 7756563281116112158}
   - component: {fileID: 1132756731515900727}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Low_weapons
-  m_TagString: Untagged
+  m_TagString: AttackPoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1660,7 +1692,7 @@ Transform:
   m_Children:
   - {fileID: 8178852606286536159}
   m_Father: {fileID: 97841749450546731}
-  m_LocalEulerAnglesHint: {x: -3.6206071, y: 4.40151, z: 100.52215}
+  m_LocalEulerAnglesHint: {x: -3.620608, y: 4.401513, z: 100.52215}
 --- !u!33 &7756563281116112158
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -1720,7 +1752,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1617990775723127227}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: CATRigLLegDigit11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1741,7 +1773,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 543596441124047558}
-  m_LocalEulerAnglesHint: {x: 1.6455277, y: 1.6125332, z: -19.682571}
+  m_LocalEulerAnglesHint: {x: 1.6455309, y: 1.612533, z: -19.682571}
 --- !u!1 &7421172935072913555
 GameObject:
   m_ObjectHideFlags: 0
@@ -1751,7 +1783,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2814159815489215841}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: CATRigRArmDigit13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1772,7 +1804,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4541714934034946611}
-  m_LocalEulerAnglesHint: {x: -0.0000007615363, y: -0.0000025972065, z: 1.012112}
+  m_LocalEulerAnglesHint: {x: -0.0000012841309, y: -0.0000043795076, z: 1.0121098}
 --- !u!1 &7600541249639178804
 GameObject:
   m_ObjectHideFlags: 0
@@ -1782,7 +1814,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 923336987183556287}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: CATRigLArmDigit11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1804,7 +1836,7 @@ Transform:
   m_Children:
   - {fileID: 7831012881158021197}
   m_Father: {fileID: 7328935324362171914}
-  m_LocalEulerAnglesHint: {x: 38.844513, y: 175.48357, z: 128.63568}
+  m_LocalEulerAnglesHint: {x: 60.493385, y: -135.46393, z: 168.4527}
 --- !u!1 &7744256470095476646
 GameObject:
   m_ObjectHideFlags: 0
@@ -1814,7 +1846,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5286713015209836491}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: CATRigRArmDigit33
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1845,7 +1877,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9069744489029225406}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: CATRigLArmDigit32 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1867,7 +1899,7 @@ Transform:
   m_Children:
   - {fileID: 689544803945714415}
   m_Father: {fileID: 1269624087439075141}
-  m_LocalEulerAnglesHint: {x: -0.000033174987, y: -0.000020243246, z: 22.107187}
+  m_LocalEulerAnglesHint: {x: -0.000023976118, y: -0.000010517733, z: 7.8365307}
 --- !u!1 &8054097818641380208
 GameObject:
   m_ObjectHideFlags: 0
@@ -1877,7 +1909,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 636307902710684356}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: CATRigHub003Bone003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1898,7 +1930,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1459148624486379328}
-  m_LocalEulerAnglesHint: {x: -0.1776104, y: 0.17300081, z: 58.371365}
+  m_LocalEulerAnglesHint: {x: 0.000009879629, y: -0.0000032053795, z: -27.437626}
 --- !u!1 &8182894333088762952
 GameObject:
   m_ObjectHideFlags: 0
@@ -1908,11 +1940,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8178852606286536159}
-  - component: {fileID: 2387458113026756257}
-  m_Layer: 0
+  - component: {fileID: 8270127532629839863}
+  m_Layer: 6
   m_Name: AttackPart
-  m_TagString: Untagged
-  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
+  m_TagString: AttackPoint
+  m_Icon: {fileID: 7866945982896999795, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -1931,27 +1963,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2043346651750950673}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &2387458113026756257
-BoxCollider:
+--- !u!114 &8270127532629839863
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8182894333088762952}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 8.96, y: 2.75, z: 42.89}
-  m_Center: {x: 0, y: 0, z: -6.1}
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c828a0b6158ef1b4ebae6552d98bb7c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EnemyLayer:
+    serializedVersion: 2
+    m_Bits: 128
+  DamageAmount: 20
 --- !u!1 &8196198776372427273
 GameObject:
   m_ObjectHideFlags: 0
@@ -1961,7 +1988,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4541714934034946611}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: CATRigRArmDigit12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1983,7 +2010,7 @@ Transform:
   m_Children:
   - {fileID: 2814159815489215841}
   m_Father: {fileID: 1433936241433910203}
-  m_LocalEulerAnglesHint: {x: -0.0000008911335, y: 0.0000039368942, z: 29.014301}
+  m_LocalEulerAnglesHint: {x: -0.0000015026625, y: 0.0000066385364, z: 29.014305}
 --- !u!1 &8697856739548211417
 GameObject:
   m_ObjectHideFlags: 0
@@ -1993,7 +2020,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8294639494288391684}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: CATRigLArm21
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2015,7 +2042,7 @@ Transform:
   m_Children:
   - {fileID: 2196354902626800880}
   m_Father: {fileID: 6428828941069172038}
-  m_LocalEulerAnglesHint: {x: -2.1291382, y: -4.980413, z: -38.527187}
+  m_LocalEulerAnglesHint: {x: -2.129138, y: -4.9803967, z: -38.527187}
 --- !u!1 &8699550807330838817
 GameObject:
   m_ObjectHideFlags: 0
@@ -2025,7 +2052,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 543596441124047558}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: CATRigLLegAnkle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2047,7 +2074,7 @@ Transform:
   m_Children:
   - {fileID: 1617990775723127227}
   m_Father: {fileID: 4604964563065973505}
-  m_LocalEulerAnglesHint: {x: -16.3515, y: 2.3947358, z: -85.87713}
+  m_LocalEulerAnglesHint: {x: -35.729786, y: 17.227533, z: -47.804226}
 --- !u!1 &8741686014196853203
 GameObject:
   m_ObjectHideFlags: 0
@@ -2057,7 +2084,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1433936241433910203}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: CATRigRArmDigit11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2089,7 +2116,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9024846865920291988}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: CATRigRArmDigit31
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2111,7 +2138,7 @@ Transform:
   m_Children:
   - {fileID: 6062415692103914935}
   m_Father: {fileID: 97841749450546731}
-  m_LocalEulerAnglesHint: {x: 0.00000399867, y: 0.000018705508, z: 72.67706}
+  m_LocalEulerAnglesHint: {x: 0.0000067427077, y: 0.000021070779, z: 72.67706}
 --- !u!1 &8849774249607189897
 GameObject:
   m_ObjectHideFlags: 0
@@ -2121,7 +2148,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7392699807481291726}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: CATRigHub001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2145,7 +2172,7 @@ Transform:
   - {fileID: 5601451112293413438}
   - {fileID: 3251657986963584822}
   m_Father: {fileID: 6541092408955731013}
-  m_LocalEulerAnglesHint: {x: 0, y: -81.99999, z: -90}
+  m_LocalEulerAnglesHint: {x: 5.40673, y: -59.459095, z: -27.72207}
 --- !u!1 &8871232970993983893
 GameObject:
   m_ObjectHideFlags: 0
@@ -2155,7 +2182,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 306687827045092001}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: CATRigLLeg1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2177,7 +2204,7 @@ Transform:
   m_Children:
   - {fileID: 4604964563065973505}
   m_Father: {fileID: 7392699807481291726}
-  m_LocalEulerAnglesHint: {x: -17.482645, y: 171.48157, z: -36.674255}
+  m_LocalEulerAnglesHint: {x: -29.288023, y: -165.64622, z: -51.507767}
 --- !u!1 &9084651364037052366
 GameObject:
   m_ObjectHideFlags: 0
@@ -2187,7 +2214,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1459148624486379328}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: CATRigHub003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2216,7 +2243,7 @@ Transform:
   - {fileID: 5651756676877498805}
   - {fileID: 9160009915106659899}
   m_Father: {fileID: 3709368244146374192}
-  m_LocalEulerAnglesHint: {x: -2.518153, y: 0.13801555, z: 7.398924}
+  m_LocalEulerAnglesHint: {x: 8.046463, y: 6.1482215, z: 7.776239}
 --- !u!1 &9102031381023092916
 GameObject:
   m_ObjectHideFlags: 0
@@ -2226,7 +2253,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 97841749450546731}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: CATRigRArmPalm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2252,7 +2279,7 @@ Transform:
   - {fileID: 5697563836436923473}
   - {fileID: 2043346651750950673}
   m_Father: {fileID: 6051235726673362352}
-  m_LocalEulerAnglesHint: {x: 33.69341, y: 99.76245, z: 111.77242}
+  m_LocalEulerAnglesHint: {x: 39.716473, y: 157.36041, z: 143.58963}
 --- !u!1 &9194092093541008951
 GameObject:
   m_ObjectHideFlags: 0
@@ -2262,7 +2289,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3251657986963584822}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: CATRigSpine1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2284,4 +2311,4 @@ Transform:
   m_Children:
   - {fileID: 8769962955504848336}
   m_Father: {fileID: 7392699807481291726}
-  m_LocalEulerAnglesHint: {x: -5.842188, y: -2.3022773, z: 4.0544186}
+  m_LocalEulerAnglesHint: {x: -2.2563405, y: 3.6564848, z: 12.021443}

@@ -5,7 +5,7 @@ using UnityEngine;
 public class EnemyDamageScript : MonoBehaviour
 {
     public LayerMask PlayerLayer;
-    public float DamageAmount = 2f;
+    public int DamageAmount = 2;
     private void Update()
     {
         Collider[] hits=Physics.OverlapSphere(transform.position, 0.1f,PlayerLayer);
@@ -13,7 +13,7 @@ public class EnemyDamageScript : MonoBehaviour
         {
             if (hits[0].gameObject.tag == "Player")
             {
-                Debug.Log("We have hit the player");
+                hits[0].gameObject.GetComponent<PlayerHealthScript>().ApplyDamagePlayer(DamageAmount);
             }
         }
     }

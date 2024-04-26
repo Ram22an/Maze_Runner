@@ -14,7 +14,6 @@ public class PlayerMovement : MonoBehaviour
     // Start is called before the first frame update
     void Awake()
     {
-        
         characterController = GetComponent<CharacterController>();
         animator = GameObject.FindGameObjectWithTag("Player").GetComponent<Animator>();
     }

@@ -19,6 +19,7 @@ public class EnemyScript : MonoBehaviour
         Player = GameObject.FindGameObjectWithTag("Player");
         MyBody=GetComponent<Rigidbody>();
         Anim=GetComponent<Animator>();  
+        AttackingPoint.SetActive(false);
     }
 
     // Update is called once per frame
