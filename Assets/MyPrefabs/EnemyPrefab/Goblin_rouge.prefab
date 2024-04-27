@@ -2212,9 +2212,10 @@ GameObject:
   - component: {fileID: 6193082893850195308}
   - component: {fileID: 2514308747367451426}
   - component: {fileID: 8268534025571836640}
+  - component: {fileID: 833263272508305008}
   m_Layer: 7
   m_Name: Goblin_rouge
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2267,7 +2268,7 @@ Rigidbody:
   m_GameObject: {fileID: 7936018764859076986}
   serializedVersion: 4
   m_Mass: 1
-  m_Drag: 0
+  m_Drag: 1
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
@@ -2318,6 +2319,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8375fbf429d2eef45b926e22fece9bd0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &833263272508305008
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7936018764859076986}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b62edd18b351af64e89def0640b413f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Health: 50
 --- !u!1 &8005147295341161750
 GameObject:
   m_ObjectHideFlags: 0

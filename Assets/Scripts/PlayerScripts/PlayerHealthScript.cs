@@ -22,7 +22,10 @@ public class PlayerHealthScript : MonoBehaviour
             Debug.LogWarning("Child GameObject 'Character Forest Guard' not found.");
         }
     }
-
+    void Update()
+    {
+        //Debug.Log(Health);
+    }
     public void ApplyDamagePlayer(int DamageAmount)
     {
         Health-=DamageAmount;
