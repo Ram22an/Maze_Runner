@@ -10,6 +10,7 @@ public class SoundScripts : MonoBehaviour
     public AudioSource Run;
     public AudioSource Jump;
     public AudioSource Attack;
+    public AudioSource EnemyKilled;
     void Awake()
     {
         MakeInstance();
@@ -42,5 +43,9 @@ public class SoundScripts : MonoBehaviour
     public void PlayerAttacked()
     {
         Attack.Play();
+    }
+    public void EnemyKilledSound()
+    {
+        EnemyKilled.Play();
     }
 }//class

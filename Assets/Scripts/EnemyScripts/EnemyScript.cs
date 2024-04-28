@@ -25,7 +25,17 @@ public class EnemyScript : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        EnemyAI();
+        if (GamePlayController.instance.IsPlayerAlive)
+        {
+            EnemyAI();
+        }
+        else
+        {
+            if (Anim.GetCurrentAnimatorStateInfo(0).IsName("Attack")|| Anim.GetCurrentAnimatorStateInfo(0).IsName("Run"))
+            {
+                Anim.SetTrigger("Stop");
+            }
+        }
     }
 
     void EnemyAI()

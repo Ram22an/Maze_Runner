@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerHealthScript : MonoBehaviour
 {
-    public float Health = 100f;
+    public int Health = 100;
     private PlayerMovement playermovement;
     private Animator anim;
     // Start is called before the first frame update
@@ -21,6 +21,7 @@ public class PlayerHealthScript : MonoBehaviour
         {
             Debug.LogWarning("Child GameObject 'Character Forest Guard' not found.");
         }
+        GamePlayController.instance.DisPlayHealth(Health);
     }
     void Update()
     {
@@ -33,10 +34,12 @@ public class PlayerHealthScript : MonoBehaviour
         {
             Health = 0;
         }
+        GamePlayController.instance.DisPlayHealth(Health);
         if (Health == 0)
         {
             playermovement.enabled = false;
             anim.Play("Dead");
+            GamePlayController.instance.IsPlayerAlive = false;
         }
     }
 

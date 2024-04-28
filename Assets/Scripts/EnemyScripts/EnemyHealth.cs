@@ -26,6 +26,7 @@ public class EnemyHealth : MonoBehaviour
         {
             enemyscript.enabled = false;
             anim.Play("Dead");
+            SoundScripts.Instance.EnemyKilledSound();
             StartCoroutine(DeadEnemy());
         }
     }
