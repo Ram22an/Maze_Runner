@@ -16,7 +16,7 @@ public class EnemyScript : MonoBehaviour
     void Awake()
     {
         AttackingPoint = GameObject.FindGameObjectWithTag("AttackPointEnemy");
-        Player = GameObject.FindGameObjectWithTag("Player");
+        Player = GameObject.FindGameObjectWithTag("PlayerChild");
         MyBody=GetComponent<Rigidbody>();
         Anim=GetComponent<Animator>();  
         AttackingPoint.SetActive(false);

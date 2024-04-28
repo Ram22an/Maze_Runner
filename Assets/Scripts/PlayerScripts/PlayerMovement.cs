@@ -15,7 +15,7 @@ public class PlayerMovement : MonoBehaviour
     void Awake()
     {
         characterController = GetComponent<CharacterController>();
-        animator = GameObject.FindGameObjectWithTag("Player").GetComponent<Animator>();
+        animator = GameObject.FindGameObjectWithTag("PlayerChild").GetComponent<Animator>();
     }
     void Update()
     {
