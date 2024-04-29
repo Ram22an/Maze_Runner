@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class GamePlayController : MonoBehaviour
 {
-    public static GamePlayController instance;
+    public static GamePlayController instanceOfGamePlay;
     private TextMeshProUGUI CoinText,HealthText;
     private int CoinScore;
     [HideInInspector]
@@ -27,13 +27,13 @@ public class GamePlayController : MonoBehaviour
     }
     void MakeInstance()
     {
-        if (instance == null)
+        if (instanceOfGamePlay == null)
         {
-            instance = this;
+            instanceOfGamePlay = this;
         }
-        else if (instance != null)
+        else if (instanceOfGamePlay != null)
         {
-            Destroy(instance);
+            Destroy(instanceOfGamePlay);
         }
     }
 

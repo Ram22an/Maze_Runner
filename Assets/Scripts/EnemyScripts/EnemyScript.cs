@@ -25,7 +25,7 @@ public class EnemyScript : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        if (GamePlayController.instance.IsPlayerAlive)
+        if (GamePlayController.instanceOfGamePlay.IsPlayerAlive)
         {
             EnemyAI();
         }

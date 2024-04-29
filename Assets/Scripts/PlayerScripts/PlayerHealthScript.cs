@@ -21,7 +21,10 @@ public class PlayerHealthScript : MonoBehaviour
         {
             Debug.LogWarning("Child GameObject 'Character Forest Guard' not found.");
         }
-        GamePlayController.instance.DisPlayHealth(Health);
+    }
+    void Start()
+    {
+        GamePlayController.instanceOfGamePlay.DisPlayHealth(Health);
     }
     void Update()
     {
@@ -34,12 +37,13 @@ public class PlayerHealthScript : MonoBehaviour
         {
             Health = 0;
         }
-        GamePlayController.instance.DisPlayHealth(Health);
+        GamePlayController.instanceOfGamePlay.DisPlayHealth(Health);
         if (Health == 0)
         {
+            SoundScripts.Instance.PlayerDeathSound();
             playermovement.enabled = false;
             anim.Play("Dead");
-            GamePlayController.instance.IsPlayerAlive = false;
+            GamePlayController.instanceOfGamePlay.IsPlayerAlive = false;
         }
     }
 

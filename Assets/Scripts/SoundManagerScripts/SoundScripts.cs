@@ -11,6 +11,9 @@ public class SoundScripts : MonoBehaviour
     public AudioSource Jump;
     public AudioSource Attack;
     public AudioSource EnemyKilled;
+    public AudioSource YouWinSound;
+    public AudioSource YouLooseSound;
+    public AudioSource CoinSound;
     void Awake()
     {
         MakeInstance();
@@ -48,4 +51,24 @@ public class SoundScripts : MonoBehaviour
     {
         EnemyKilled.Play();
     }
+
+    public void PlayerWinSound()
+    {
+        YouWinSound.Play();
+    }
+
+    public void PlayerDeathSound()
+    {
+        YouLooseSound.Play();
+    }
+
+    public void CoinCollectSound() 
+    {
+        CoinSound.Play();
+    }
+
+
+
+
+
 }//class
