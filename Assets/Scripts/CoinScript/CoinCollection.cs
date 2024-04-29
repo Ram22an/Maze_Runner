@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class CoinCollection : MonoBehaviour
@@ -10,18 +11,11 @@ public class CoinCollection : MonoBehaviour
         {
             GamePlayController.instanceOfGamePlay.CoinCollected();
             SoundScripts.Instance.CoinCollectSound();
-            StartCoroutine(CoinCollected());
+            gameObject.SetActive(false);
         }
 
     }
-    IEnumerator CoinCollected()
-    {
-        yield return new WaitForSeconds(0f);
-        gameObject.SetActive(false);
-    }
-    /***
-    {
-          
-    }
-    ***/
-}
+
+
+
+}//class
