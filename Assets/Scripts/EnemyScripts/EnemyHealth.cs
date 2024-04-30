@@ -5,18 +5,21 @@ using UnityEngine;
 
 public class EnemyHealth : MonoBehaviour
 {
-    public float Health = 50f;
+    public float Health = 70f;
     private EnemyScript enemyscript;
     private Animator anim;
+    private EnemyHealthBarScript enemyHealthBarScript;
     // Start is called before the first frame update
     void Awake()
     {
         enemyscript = GetComponent<EnemyScript>();
         anim = GetComponent<Animator>();
+        enemyHealthBarScript = GetComponentInChildren<EnemyHealthBarScript>();
     }
 
     public void ApplyDamageEnemy(int DamageAmount)
     {
+        enemyHealthBarScript.UpdateHealthBar(70f,Health);
         Health -= DamageAmount;
         if (Health < 0)
         {
