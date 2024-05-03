@@ -11,6 +11,7 @@ public class GamePlayController : MonoBehaviour
     private int CoinScore;
     [HideInInspector]
     public bool IsPlayerAlive;
+    public GameObject EndPanel;
     // Start is called before the first frame update
     void Awake()
     {
@@ -18,12 +19,14 @@ public class GamePlayController : MonoBehaviour
         CoinText = GameObject.Find("CoinText").GetComponent<TextMeshProUGUI>();
         HealthText = GameObject.Find("HealthText").GetComponent<TextMeshProUGUI>();
         CoinText.text = "Coin: "+CoinScore;
+        EndPanel = GameObject.Find("GameOverPanel");
     }
 
     // Update is called once per frame
     void Start()
     {
         IsPlayerAlive=true;
+        EndPanel.SetActive(false);
     }
     void MakeInstance()
     {
@@ -45,6 +48,13 @@ public class GamePlayController : MonoBehaviour
     public void DisPlayHealth(int health)
     {
         HealthText.text = "Health:" + health;
+    }
+
+    public void GameOver()
+    {
+        SoundScripts.Instance.StopBackgroundMusic();
+        Time.timeScale = 0f;
+        EndPanel.SetActive(true);
     }
 
 

@@ -14,12 +14,19 @@ public class SoundScripts : MonoBehaviour
     public AudioSource YouWinSound;
     public AudioSource YouLooseSound;
     public AudioSource CoinSound;
+    public AudioSource PlayerGettinghit;
     void Awake()
     {
         MakeInstance();
         BackGround.Play();
 
     }
+    public void StopBackgroundMusic()
+    {
+        BackGround.loop = false;
+        BackGround.Stop();
+    }
+
     void MakeInstance()
     {
         if (Instance == null)
@@ -65,6 +72,10 @@ public class SoundScripts : MonoBehaviour
     public void CoinCollectSound() 
     {
         CoinSound.Play();
+    }
+    public void PlayerGettingHurt()
+    {
+        PlayerGettinghit.Play();
     }
 
 

@@ -32,6 +32,7 @@ public class PlayerHealthScript : MonoBehaviour
     }
     public void ApplyDamagePlayer(int DamageAmount)
     {
+        SoundScripts.Instance.PlayerGettingHurt();
         Health-=DamageAmount;
         if (Health < 0)
         {
@@ -44,6 +45,7 @@ public class PlayerHealthScript : MonoBehaviour
             playermovement.enabled = false;
             anim.Play("Dead");
             GamePlayController.instanceOfGamePlay.IsPlayerAlive = false;
+            GamePlayController.instanceOfGamePlay.GameOver();
         }
     }
 
