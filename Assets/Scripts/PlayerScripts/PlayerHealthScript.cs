@@ -37,15 +37,16 @@ public class PlayerHealthScript : MonoBehaviour
         if (Health < 0)
         {
             Health = 0;
+            
         }
         GamePlayController.instanceOfGamePlay.DisPlayHealth(Health);
         if (Health == 0)
         {
-            SoundScripts.Instance.PlayerDeathSound();
+            SoundScripts.Instance.FaddAwayFun();
             playermovement.enabled = false;
             anim.Play("Dead");
             GamePlayController.instanceOfGamePlay.IsPlayerAlive = false;
-            GamePlayController.instanceOfGamePlay.GameOver();
+            //GamePlayController.instanceOfGamePlay.GameOver();
         }
     }
 

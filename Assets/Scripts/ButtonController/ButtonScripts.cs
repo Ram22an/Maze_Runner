@@ -1,19 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
-using TMPro;
 using UnityEngine;
-using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 public class ButtonScripts : MonoBehaviour
 {
     public GameObject cameraObject;
     private Animator cameraAnimator;
-    public Camera myCamera;
     public Canvas canvasUI;
     public GameObject canvasGO;
     private void Awake()
     {
         cameraObject = GameObject.FindGameObjectWithTag("MainCamera");
-        myCamera = Camera.main;
         canvasGO = GameObject.Find("Canvas");
         // Get the Canvas component attached to the GameObject
         canvasUI = canvasGO.GetComponent<Canvas>();
@@ -22,13 +19,16 @@ public class ButtonScripts : MonoBehaviour
     public void StartButton()
     {
         canvasUI.enabled = false;
+        cameraAnimator.SetInteger("Play",1);
     }
     public void AboutButton()
     {
         canvasUI.enabled = false;
+        cameraAnimator.SetInteger("Play",2);
     }
     public void QuitButton()
     {
         Application.Quit();
     }
+    
 }

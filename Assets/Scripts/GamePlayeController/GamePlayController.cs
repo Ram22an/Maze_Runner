@@ -19,7 +19,11 @@ public class GamePlayController : MonoBehaviour
         CoinText = GameObject.Find("CoinText").GetComponent<TextMeshProUGUI>();
         HealthText = GameObject.Find("HealthText").GetComponent<TextMeshProUGUI>();
         CoinText.text = "Coin: "+CoinScore;
-        EndPanel = GameObject.Find("GameOverPanel");
+        EndPanel = GameObject.Find("Dead");
+    }
+    private void Update()
+    {
+        GameOver();
     }
 
     // Update is called once per frame
@@ -52,11 +56,20 @@ public class GamePlayController : MonoBehaviour
 
     public void GameOver()
     {
-        SoundScripts.Instance.StopBackgroundMusic();
-        Time.timeScale = 0f;
-        EndPanel.SetActive(true);
+        //SoundScripts.Instance.StopBackgroundMusic();
+        
+        if (SoundScripts.Instance.BackGround.volume<=0)
+        {
+            Time.timeScale = 0f;
+            StartCoroutine(ShowEndPanelAfterDelay());
+            GamePlayController.instanceOfGamePlay.GameOver();
+        }
     }
-
+    IEnumerator ShowEndPanelAfterDelay()
+    {
+        yield return new WaitForSeconds(100f); // Wait for 2 seconds
+        EndPanel.SetActive(true); // Set the EndPanel active after the delay
+    }
 
 
 

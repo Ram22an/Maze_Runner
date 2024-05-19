@@ -77,7 +77,22 @@ public class SoundScripts : MonoBehaviour
     {
         PlayerGettinghit.Play();
     }
-
+    public void FaddAwayFun()
+    {
+        StartCoroutine(FaddedAway());
+    }
+    IEnumerator FaddedAway()
+    {
+        while (BackGround.volume > 0)
+        {
+            BackGround.volume -= 1 * Time.deltaTime; // Reduce volume gradually over time
+            yield return null;
+        }
+        
+        /**BackGround.volume -= 10;
+        yield return null;
+        StartCoroutine(FaddedAway());**/
+    }
 
 
 
