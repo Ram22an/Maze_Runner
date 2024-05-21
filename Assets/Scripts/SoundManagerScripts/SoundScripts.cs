@@ -85,7 +85,7 @@ public class SoundScripts : MonoBehaviour
     {
         while (BackGround.volume > 0)
         {
-            BackGround.volume -= 1 * Time.deltaTime; // Reduce volume gradually over time
+            BackGround.volume -= 10 * Time.deltaTime; // Reduce volume gradually over time
             yield return null;
         }
         

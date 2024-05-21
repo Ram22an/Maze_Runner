@@ -9,6 +9,7 @@ public class GamePlayController : MonoBehaviour
     public static GamePlayController instanceOfGamePlay;
     private TextMeshProUGUI CoinText,HealthText;
     private int CoinScore;
+    public Animator DeadPanel;
     [HideInInspector]
     public bool IsPlayerAlive;
     public GameObject EndPanel;
@@ -19,7 +20,11 @@ public class GamePlayController : MonoBehaviour
         CoinText = GameObject.Find("CoinText").GetComponent<TextMeshProUGUI>();
         HealthText = GameObject.Find("HealthText").GetComponent<TextMeshProUGUI>();
         CoinText.text = "Coin: "+CoinScore;
-        EndPanel = GameObject.Find("Dead");
+        EndPanel = GameObject.Find("GameOverPanel");
+        if (EndPanel == null) Debug.LogWarning("EndPanel is not collected");
+        DeadPanel =EndPanel.GetComponent<Animator>();
+        if (DeadPanel == null) Debug.LogWarning("Anim is not collected");
+
     }
     private void Update()
     {
@@ -56,19 +61,19 @@ public class GamePlayController : MonoBehaviour
 
     public void GameOver()
     {
+        EndPanel.SetActive(true);
         //SoundScripts.Instance.StopBackgroundMusic();
-        
-        if (SoundScripts.Instance.BackGround.volume<=0)
+        if (SoundScripts.Instance.BackGround.volume==0)
         {
-            Time.timeScale = 0f;
+            DeadPanel.SetTrigger("DeadPlay");
             StartCoroutine(ShowEndPanelAfterDelay());
-            GamePlayController.instanceOfGamePlay.GameOver();
         }
     }
     IEnumerator ShowEndPanelAfterDelay()
     {
-        yield return new WaitForSeconds(100f); // Wait for 2 seconds
-        EndPanel.SetActive(true); // Set the EndPanel active after the delay
+        yield return new WaitForSeconds(5f);
+        Time.timeScale = 0f;// Wait for 2 seconds
+         // Set the EndPanel active after the delay
     }
 
 

@@ -10,6 +10,7 @@ public class PlayerHealthScript : MonoBehaviour
     // Start is called before the first frame update
     void Awake()
     {
+
         playermovement = GetComponent<PlayerMovement>();
         Transform playerChild = transform.Find("Character Forest Guard");
         if (playerChild != null)
@@ -25,10 +26,6 @@ public class PlayerHealthScript : MonoBehaviour
     void Start()
     {
         GamePlayController.instanceOfGamePlay.DisPlayHealth(Health);
-    }
-    void Update()
-    {
-        //Debug.Log(Health);
     }
     public void ApplyDamagePlayer(int DamageAmount)
     {
@@ -46,7 +43,7 @@ public class PlayerHealthScript : MonoBehaviour
             playermovement.enabled = false;
             anim.Play("Dead");
             GamePlayController.instanceOfGamePlay.IsPlayerAlive = false;
-            //GamePlayController.instanceOfGamePlay.GameOver();
+            GamePlayController.instanceOfGamePlay.GameOver();
         }
     }
 
