@@ -13,6 +13,7 @@ public class EnemyDamageScript : MonoBehaviour
         {
             if (hits[0].gameObject.tag == "Player")
             {
+                Debug.LogWarning("Hitting Player");
                 hits[0].gameObject.GetComponent<PlayerHealthScript>().ApplyDamagePlayer(DamageAmount);
             }
         }
