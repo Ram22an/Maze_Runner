@@ -8,7 +8,7 @@ public class GoingBack : MonoBehaviour
     public GameObject canvasGO;
     public GameObject cameraObject;
     private Animator cameraAnimator;
-    private void Awake()
+    private void Start()
     {
         cameraObject = GameObject.FindGameObjectWithTag("MainCamera");
         canvasGO = GameObject.Find("Canvas");
@@ -26,22 +26,22 @@ public class GoingBack : MonoBehaviour
     }
     public void Level1()
     {
-
+        SceneManager.LoadScene("Level1");
     }
     public void Level2()
     {
-
+        SceneManager.LoadScene("Level2");
     }
     public void Level3()
     {
-
+        SceneManager.LoadScene("Level3");
     }
     public void Level4()
     {
-
+        SceneManager.LoadScene("Level4");
     }
     public void Level5()
     {
-
+        SceneManager.LoadScene("Level5");
     }
 }

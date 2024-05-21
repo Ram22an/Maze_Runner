@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class GamePlayController : MonoBehaviour
 {
@@ -75,7 +76,15 @@ public class GamePlayController : MonoBehaviour
         Time.timeScale = 0f;// Wait for 2 seconds
          // Set the EndPanel active after the delay
     }
-
+    public void MainMenu()
+    {
+        SceneManager.LoadScene("LevelsChoose");
+    }
+    public void PlayeAgain()
+    {
+        string sceneName = SceneManager.GetActiveScene().name;
+        SceneManager.LoadScene(sceneName);
+    }
 
 
 
